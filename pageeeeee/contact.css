@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2C1762;
+    padding: 16px 40px;
+}
+
+
+.flow {
+    display: flex;
+    align-items: center;
+    /* margin-left: auto; */
+    gap: 20px;
+
+}
+.droptitle h2{
+    font-weight: 400;
+    font-size: large;
+}
+.dropdown {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    gap: 20px;
+}
+
+.droptitle{
+    position: relative;
+    padding: 10px;
+    cursor: grab;
+    color: white;
+    /* font-weight: lighter; */
+}
+.droplist {
+    position: absolute;
+    top: 100%;
+    left: auto;
+    right: 0;
+    width: 450px;
+    max-width: 90vw;
+    /* height: 100;  */
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+
+    visibility: hidden;
+
+    z-index: 100;
+}
+
+.droplist a{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.droplist a:hover {
+    background-color: pink;
+}
+
+.droptitle:hover .droplist {
+    visibility: visible;
+}
+
+.btn{
+    padding: 20px 22px;
+    color: #2C1762;
+    background-color: #ffffff;
+    border: 1px solid #2C1762;
+    border-radius: 15px;
+}
+
+
+.great{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    margin: 50px;
+    background-color: #FEFEFE;
+
+    
+}
+
+.container{
+     padding: 15px;
+    border-radius: 10px;
+/* white-space: nowrap; */
+    margin-top: 70px;
+    background-color: white;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); 
+
+}
+.question{
+    margin-top: 35px;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: #2C1762;
+}
+.para{
+    margin-top: 20px;
+font-size: large;
+color: #6B778C;
+}
+.img{
+    margin-top: 20px;
+}
+.href {
+    margin-top: 60px;
+}
+.href a{
+font-size: large;
+    text-decoration: none;
+    list-style-type: none;
+    color: #2C1762;
+}
+
+
+.ragh{
+    background-color: #FFE5F1;
+    padding: 60px 120px;
+    margin: 140px;
+    border-radius: 30px;
+}
+
+.pragh{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size:40px;
+    font-weight: 700;
+    color: #2C1762;
+}
+
+.prahg{
+    display: flex;
+    justify-content: center;
+margin-top: 20px;
+font-size: x-large;
+}
+.prag{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.prag img{
+    width: 30px;
+}
+.downright{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    padding: 40px;
+}
+.downright div{
+     display: flex;
+     flex-direction: column;
+    
+     gap:15px;
+}
+label{
+    margin-top: 30px;
+    left: 20px;
+}
+.diva div{
+    margin-top: 20px;
+}
+
+.downright a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.pre{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.class{
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+}
+
+.praghh{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+}
+.praghh img{
+    width: 20px;
+    /* gap: 40px; */
+}
